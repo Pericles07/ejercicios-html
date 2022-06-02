@@ -1,0 +1,27 @@
+#elemento-1 {
+    color: red;
+    font-size: 2rem;
+}
+.encabezado {
+    color: gold;
+    font-size: 4rem;
+}
+#elemento-2 {
+    color: blue;
+    font-size: 2rem;
+}
+#elemento-3 {
+    color: green;
+    font-size: 2rem;
+}
+#elemento-4 {
+    color:  rebeccapurple;
+    font-size: 2rem;
+}
+#elemento-5 {
+    color:chocolate;
+    font-size: 2rem;
+}
+* {
+    background-color: black;
+}
