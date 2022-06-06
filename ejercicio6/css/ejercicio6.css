@@ -5,7 +5,7 @@
 .boton::before {
     content: "Pasa por encima";
     font-size: medium;
-    visibility: hidden;
+    
     
 }
 .boton:hover {
@@ -13,12 +13,11 @@
     color: white;
     
 }
-
-.boton::after {
+.boton:hover::before {
     content: "¡Hecho!";
-    font-size: medium;
-    visibility: visible;
 }
+
+
 
 
 
