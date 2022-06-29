@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container py-4">
+        <div class="bg-light p-5 rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Jumbotron personalizado</h1>
+                <p class="col-md-8 fs-4">Usando una serie de utilidades, puede crear este jumbotron, al igual que el de las versiones anteriores de Bootstrap. Echa un vistazo a los ejemplos a continuación para saber cómo puedes remezclarlo y rediseñarlo a tu gusto.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-ejemplo">Boton de ejemplo</button>
+                <div class="modal" data-bs-backdrop="static" id="modal-ejemplo">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <h4 class="modal-header">Esta es la cabecera del modal</h4>
+                            <div class="modal-body">Este es el cuerpo del modal</div>
+                                <button class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button class="btn btn-outline-primary" data-bs-dismiss="modal">Aceptar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-4">
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Introduce tu nombre</label>
+                <input type="text" id="nombre" class="form-control" placeholder="Tu nombre">
+            </div>
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Introduce tu telefono</label>
+                <input type="number" id="telefono" class="form-control" placeholder="Tu telefono">
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Introduce tu mensaje</label>
+                <textarea type="text" id="mensaje" class="form-control" placeholder="Tu mensaje"></textarea>
+            </div>
+        </form>
+    </div>
+
+    <div class="container py-4">
+        <div class="card" style="width: 20rem">
+            <div class="card-header">Pedro lozano</div>
+            <div class="card-body">
+                <p class="card-text">Estoy estudiando html y css,me gustaria trabajar de frontend</p>
+            </div>
+            <div class="card-footer">
+                perico1597@hotmail.com
+            </div>
+        </div>
+    </div>
+</body>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
